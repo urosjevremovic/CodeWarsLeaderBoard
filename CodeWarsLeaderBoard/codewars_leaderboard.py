@@ -48,7 +48,8 @@ def solution():
 def main():
     leaderboard = solution()
     for i in range(1, 501):
-        print(f"{i}.{leaderboard.position[i].name}, clan: {leaderboard.position[i].clan},"
+        print(f"{i}.{leaderboard.position[i].name}, "
+              f"clan: {leaderboard.position[i].clan if leaderboard.position[i].clan else 'No clan'},"
               f" honor: {leaderboard.position[i].honor}")
 
 
