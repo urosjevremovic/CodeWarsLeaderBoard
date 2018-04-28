@@ -1,4 +1,4 @@
-CodeWarsLeaderBoardScrape
+CodeWarsLeaderBoard
 -------------
 
 Script that runs a web scraper in a background for getting

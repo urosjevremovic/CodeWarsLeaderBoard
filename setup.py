@@ -20,7 +20,7 @@ After it is installed you can start it by simply typing in your terminal:
 from setuptools import setup
 
 setup(name='CodeWarsLeaderBoard',
-      version='0.1',
+      version='0.2',
       description='Runs a web scraper in a background for getting leader '
                   'board details for 500 top users of codewars.com',
       long_description=__doc__,
